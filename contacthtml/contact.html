@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Особистий блог - Контакти</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #0d47a1; /* Темний синій фон */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #ffffff; /* Білий текст */
+        }
+
+        header {
+            background: #002171; /* Темно-синій фон */
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+        }
+
+        h1, h2, h3 {
+            color: #ffffff; /* Білий текст */
+        }
+
+        footer {
+            background: #002171; /* Темно-синій фон */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .contact-page {
+            background-color: #1e3d7a; /* Темний фон секції */
+            padding: 20px;
+            border: 2px solid #002171; /* Темно-синя обводка */
+            border-radius: 10px;
+            display: inline-block;
+            text-align: left;
+            margin: auto;
+        }
+
+        .contact-page label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #ffffff; /* Білий текст */
+        }
+
+        .contact-page input, .contact-page textarea {
+            width: calc(100% - 22px); /* Віднімаємо padding і border */
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #002171; /* Темно-синя обводка */
+            border-radius: 5px;
+            background-color: #0d47a1; /* Темний синій фон */
+            color: #ffffff; /* Білий текст */
+        }
+
+        .contact-page input:focus, .contact-page textarea:focus {
+            outline: none;
+            border-color: #ffffff; /* Білий текст */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Контакти</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="blog.html">Блог</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact-page">
+        <section>
+            <h2>Зв'яжіться зі мною</h2>
+            <form>
+                <label for="email">Мій номер +31 6 85 15 01 58</label>
+                
+                <label for="message">Моя Електронна пошта petrenko.anastasia@physmathschool12cn.ukr.education</label>
+                <h1>Моє смішне відео</h1>
+                <video width="640" height="360" controls>
+                    <source src="stas!.MP4" type="video/mp4">
+                </video>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 💕Анастасія💕</p>
+    </footer>
+</body>
+</html>
